@@ -13,6 +13,7 @@ Moose Queries collected from research projects.
 
 # Usage
 `nl_query:= 'find abc class in xyz package'`.
+
 `evaluate: nl_query`.
 
 
