@@ -12,7 +12,8 @@ Moose 6.1
 Moose Queries collected from research projects.
 
 # Usage
-`evaluate:"find 'Collection 'class".
+`nl_query:= 'find abc class in xyz package'`.
+`evaluate: nl_query`.
 
 
 
