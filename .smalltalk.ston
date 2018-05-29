@@ -1,0 +1,20 @@
+SmalltalkCISpec {
+  #loading : [
+    SCIMetacelloLoadSpec {
+      #baseline : 'Camel',
+      #directory : 'src',
+      #platforms : [ #pharo ],
+      #load : [ 'core' ]
+    }
+  ],
+  #preTesting : [
+    'scripts/loadArgoUML.st'
+  ],
+  #testing : {
+      #packages : [ 'Moose-Camel*' ],
+      #coverage : {
+        #packages : [ 'Moose-Camel*' ]
+      }
+  }
+}
+
