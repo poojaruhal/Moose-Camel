@@ -1,4 +1,7 @@
 # Moose-Camel
+
+[![Build Status](https://travis-ci.org/poojaruhal65/Moose-Camel.svg?branch=master)](https://travis-ci.org/poojaruhal65/Moose-Camel)
+
 User can use moose to analyze their source code. No need to learn moose query language to interact with moose.
 Accept constrained input in natural language. Convert natural language queries to Moose queries and execute translated query.
 
