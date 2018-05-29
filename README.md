@@ -8,6 +8,14 @@ coreNLP 3.9
 smalltalk-nlp
 Moose 6.1
 
+# Install
+```smalltalk
+Metacello new
+   baseline: 'Camel';
+   repository: 'github://poojaruhal65/Moose-nlp-queries/src';
+   load
+```
+
 # Dataset
 Moose Queries collected from research projects.
 
