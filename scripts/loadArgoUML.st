@@ -1,7 +1,7 @@
 NonInteractiveTranscript stdout show: '.' asFileReference absolutePath; cr.
 NonInteractiveTranscript stdout show: Smalltalk image imageFile absolutePath; cr.
 
-file := 'pharo-local/iceberg/poojaruhal65/Moose-Camel/models/ArgoUML-0.34.mse' asFileReference.
+file := '/home/travis/build/poojaruhal65/Moose-Camel/models/ArgoUML-0.34.mse' asFileReference.
 
 model := MooseModel new.
 file readStreamDo: [ :aStream |
