@@ -8,7 +8,8 @@ os:
 
 smalltalk:
   - Moose-6.1
-             
+
+before_install:             
   - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then
       sudo dpkg --add-architecture i386;
       sudo apt-get update;
