@@ -1,4 +1,4 @@
-# Moose-nlp-queries
+# Moose-Camel
 User can use moose to analyze their source code. No need to learn moose query language to interact with moose.
 Accept constrained input in natural language. Convert natural language queries to Moose queries and execute translated query.
 
@@ -12,7 +12,7 @@ Moose 6.1
 ```smalltalk
 Metacello new
    baseline: 'Camel';
-   repository: 'github://poojaruhal65/Moose-nlp-queries/src';
+   repository: 'github://poojaruhal65/Moose-Camel/src';
    load
 ```
 
