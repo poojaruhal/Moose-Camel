@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "PoojaRani 5/13/2018 16:15",
+	"super" : "Object",
+	"category" : "Moose-Camel",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"steps"
+	],
+	"name" : "NlpQuery",
+	"type" : "normal"
+}

@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "PoojaRani 5/14/2018 20:47",
+	"super" : "Object",
+	"category" : "Moose-Camel",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"nlpQuery",
+		"aSelectionStep",
+		"aNavigationStep",
+		"famixNlpDictionary",
+		"queryFormDictionary",
+		"entityKindCandidates"
+	],
+	"name" : "InputNlpQuery",
+	"type" : "normal"
+}

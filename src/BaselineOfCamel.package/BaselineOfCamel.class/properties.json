@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "PoojaRani 5/29/2018 16:03",
+	"super" : "BaselineOf",
+	"category" : "BaselineOfCamel",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "BaselineOfCamel",
+	"type" : "normal"
+}
