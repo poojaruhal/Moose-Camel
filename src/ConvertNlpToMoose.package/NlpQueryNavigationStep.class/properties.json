@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "PoojaRani 5/13/2018 15:53",
+	"super" : "NlpQueryStep",
+	"category" : "ConvertNlpToMoose",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"entityKind"
+	],
+	"name" : "NlpQueryNavigationStep",
+	"type" : "normal"
+}
