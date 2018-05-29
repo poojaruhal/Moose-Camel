@@ -1,0 +1,3 @@
+configuration
+packageNames
+	^  #(#'Moose-Camel')
