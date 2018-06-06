@@ -1,6 +1,6 @@
 initialization
 initialize
 	"initialize variables"
+
 	self famixEntitiesDictionary.
-	self queryGrammarForm.
-	entityKindCandidates := Array new: 10.
+	entityKindCandidates := Array new: 10

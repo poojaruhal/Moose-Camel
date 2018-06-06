@@ -1,11 +1,11 @@
 examples - context
 applyAllModelClassesQueryContextOnArgoUml
 	<gtExample>
-	| aModel aQueryContext aResult |
+	| aModel anEntityKind aResult |
 
 	aModel := self argoUmlModel.
-	aQueryContext := self allModelClassesQueryContext.
+	anEntityKind := self allModelClassesEntityKind.
 	
-	aResult := aQueryContext executeOn: aModel.
+	aResult := anEntityKind executeOn: aModel.
 
 	^ aResult

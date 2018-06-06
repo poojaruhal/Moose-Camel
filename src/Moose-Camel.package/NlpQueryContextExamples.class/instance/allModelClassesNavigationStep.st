@@ -3,7 +3,7 @@ allModelClassesNavigationStep
 	<gtExample>
 	| aContext aStep |
 
-	aContext := self allModelClassesQueryContext.
+	aContext := self allModelClassesEntityKind.
 	aStep := NlpQueryNavigationStep  entityKind: aContext.
 	
 	^ aStep

@@ -1,4 +1,4 @@
 famix-dependent
-getFamixDictionary
+famixDictionary
 	"get famix dictionary"
-	^famixNlpDictionary
+	^ famixNlpDictionary

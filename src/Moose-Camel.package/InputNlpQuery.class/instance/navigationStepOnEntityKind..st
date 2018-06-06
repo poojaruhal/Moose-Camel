@@ -4,6 +4,6 @@ navigationStepOnEntityKind: aSymbol
 
 	|aStep entityKind|
 	"queryContext := context."
-	entityKind := NlpNamedQueryContext named: aSymbol .
+	entityKind := NlpNamedEntityKind named: aSymbol .
 	aStep := NlpQueryNavigationStep  entityKind: entityKind.
 	^aStep.

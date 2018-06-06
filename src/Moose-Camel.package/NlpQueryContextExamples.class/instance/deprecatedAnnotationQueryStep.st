@@ -1,9 +1,9 @@
 examples - context
 deprecatedAnnotationQueryStep
 	<gtExample>
-	| aModelEntityValue |
+	| aModelEntityContext |
 
-	aModelEntityValue := NlpAnnotationNameContext deprecated.
-	self assert: aModelEntityValue annotationName equals: 'Deprecated'.
+	aModelEntityContext := NlpAnnotationNameContext deprecated.
+	self assert: aModelEntityContext annotationName equals: 'Deprecated'.
 
-	^ aModelEntityValue
+	^ aModelEntityContext

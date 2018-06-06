@@ -1,4 +1,4 @@
 accessing
-nlQuery
+query
 	"return instance variable nlpQuery"
 	^ nlpQuery

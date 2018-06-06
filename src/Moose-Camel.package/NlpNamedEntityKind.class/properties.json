@@ -8,6 +8,6 @@
 	"instvars" : [
 		"name"
 	],
-	"name" : "NlpNamedQueryContext",
+	"name" : "NlpNamedEntityKind",
 	"type" : "normal"
 }

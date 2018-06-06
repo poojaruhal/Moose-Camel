@@ -1,3 +1,3 @@
 instance creation
 named: aSymbol
-	^ self entityKind: (NlpNamedQueryContext named: aSymbol)
+	^ self entityKind: (NlpNamedEntityKind named: aSymbol)
