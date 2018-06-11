@@ -57,4 +57,3 @@ astOf: aCollectionOfNodeTerminals from: aString
 			].
 	].
 	aStream close.
-	self halt
