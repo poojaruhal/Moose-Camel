@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "NlpTerminal",
+	"category" : "Moose-Camel-AST",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "NlpProperNoun",
+	"type" : "normal"
+}
