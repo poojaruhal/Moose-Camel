@@ -1,0 +1,2 @@
+accessing
+allTerminalsDo: aBlock

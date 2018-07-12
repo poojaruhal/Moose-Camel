@@ -2,6 +2,6 @@ test-examples
 tokens
 	<gtExample>
 	| tokens jsonOutput |
-	jsonOutput := self collectCoreNlpResponse.
+	jsonOutput := self collectCoreNlpResponseDummy.
 	tokens := self getTokens: jsonOutput.
 	^ tokens

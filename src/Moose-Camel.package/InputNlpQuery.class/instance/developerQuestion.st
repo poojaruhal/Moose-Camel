@@ -3,7 +3,7 @@ developerQuestion
 
 	<gtExample>
 	|aQuery|
-	aQuery := 'What are the deprecated class'.
+	aQuery := 'Which are the deprecated class'.
 	self class query: aQuery.
 	self assert: aQuery equals: self class query. 
 	

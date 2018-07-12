@@ -4,7 +4,7 @@ evaluate
 	| nlResponse tokens outputQuery queryGrammarForm  queryLemmaForm |
 	"self initialize."
 	
-	nlResponse := self collectCoreNlpResponse.
+	nlResponse := self collectCoreNlpResponseDummy.
 	tokens := self getTokens: nlResponse.
 	
 	queryGrammarForm := self extractGrammarForm: tokens.

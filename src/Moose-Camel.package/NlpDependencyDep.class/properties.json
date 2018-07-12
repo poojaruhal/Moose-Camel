@@ -1,16 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
+	"super" : "NlpDependency",
 	"category" : "Moose-Camel-AST",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"start",
-		"end",
-		"word",
-		"dependencies"
-	],
-	"name" : "NlpNode",
+	"instvars" : [ ],
+	"name" : "NlpDependencyDep",
 	"type" : "normal"
 }

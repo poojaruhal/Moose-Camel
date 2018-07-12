@@ -3,6 +3,6 @@ coreNlpApiResponse
 	<gtExample>
 	| response |
 
-	response := self collectCoreNlpResponse.
+	response := self collectCoreNlpResponseDummy.
 
 	^ response
