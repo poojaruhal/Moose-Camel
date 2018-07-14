@@ -1,4 +1,4 @@
-accessing
+initialization
 connectEdgeBetween: aSourceNode and: aTargetNode
 	sourceNode := aSourceNode.
 	targetNode := aTargetNode.

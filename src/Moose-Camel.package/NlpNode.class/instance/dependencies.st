@@ -1,3 +1,3 @@
-accessing
+api - dependencies
 dependencies
 	^ dependencies

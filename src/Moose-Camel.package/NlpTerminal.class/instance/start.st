@@ -1,3 +1,3 @@
 api - accessing
-index
-	^ index
+start
+	^ start

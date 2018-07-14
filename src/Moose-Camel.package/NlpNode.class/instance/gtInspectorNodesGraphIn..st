@@ -1,4 +1,4 @@
-as yet unclassified
+gt-inspector-extension
 gtInspectorNodesGraphIn: aComposite
 	<gtInspectorPresentationOrder: 2>
 
@@ -20,5 +20,5 @@ gtInspectorNodesGraphIn: aComposite
 						(sourceNode outgoingDependencies detect: [ :aDependency | aDependency targetNode = targetNode  ]) label ]
 					fontSize: 3;
 					connectToAll: #outgoingDependencyNodes.
-				aBuilder layout tree horizontalGap: 100; verticalGap: 100.
+				aBuilder layout tree horizontalGap: 50; verticalGap: 50.
 				aBuilder build ]

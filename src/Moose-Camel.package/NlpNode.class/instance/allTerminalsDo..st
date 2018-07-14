@@ -1,2 +1,2 @@
-accessing
+api - enumerating
 allTerminalsDo: aBlock

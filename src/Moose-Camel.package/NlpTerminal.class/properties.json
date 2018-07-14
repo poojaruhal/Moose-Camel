@@ -6,7 +6,10 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"index"
+		"index",
+		"start",
+		"end",
+		"word"
 	],
 	"name" : "NlpTerminal",
 	"type" : "normal"

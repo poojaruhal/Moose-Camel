@@ -6,9 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"start",
-		"end",
-		"word",
 		"dependencies"
 	],
 	"name" : "NlpNode",
