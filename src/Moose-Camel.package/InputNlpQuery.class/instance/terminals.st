@@ -2,4 +2,4 @@ test-examples
 terminals
 	<gtExample>
 
-	^ self tokens collect: [ :aTokenDictionary | NlpTerminal fromDictionary: aTokenDictionary ].
+	^ self tokens collect: [ :aTokenDictionary | NlpTerminal fromDictionary: aTokenDictionary ]

@@ -1,3 +1,9 @@
 api - accessing
-index: anObject
-	index := anObject
+index: aNumber
+	"Assign an index of this terminal within a sentence"
+
+	self
+		assert: [ aNumber isNotNil ]
+		description: [ 'Index must not be nil' ].
+
+	index := aNumber
