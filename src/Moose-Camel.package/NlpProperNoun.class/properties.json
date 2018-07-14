@@ -1,6 +1,6 @@
 {
-	"commentStamp" : "",
-	"super" : "NlpTerminal",
+	"commentStamp" : "AliakseiSyrel 7/14/2018 23:19",
+	"super" : "NlpNoun",
 	"category" : "Moose-Camel-AST",
 	"classinstvars" : [ ],
 	"pools" : [ ],

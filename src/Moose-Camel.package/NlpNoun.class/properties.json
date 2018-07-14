@@ -1,11 +1,11 @@
 {
-	"commentStamp" : "",
-	"super" : "NlpPresentTenseVerb",
+	"commentStamp" : "AliakseiSyrel 7/14/2018 23:18",
+	"super" : "NlpTerminal",
 	"category" : "Moose-Camel-AST",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "NlpThirdPersonSingularPresentTenseVerb",
+	"name" : "NlpNoun",
 	"type" : "normal"
 }

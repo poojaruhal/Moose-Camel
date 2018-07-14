@@ -16,9 +16,10 @@ gtInspectorNodesGraphIn: aComposite
 					color: (Color blue alpha: 0.3).
 				aBuilder edges
 					notUseInLayout;
+					moveBehind;
 					label: [ :sourceNode :targetNode |
 						(sourceNode outgoingDependencies detect: [ :aDependency | aDependency targetNode = targetNode  ]) label ]
-					fontSize: 3;
+					fontSize: 7;
 					connectToAll: #outgoingDependencyNodes.
 				aBuilder layout tree horizontalGap: 50; verticalGap: 50.
 				aBuilder build ]
