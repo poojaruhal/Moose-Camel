@@ -11,12 +11,12 @@ createDependencies: basicDependenciesArray from: aRootNode
 		targetIndex := (eachDependency at: 'dependent').
 		
 		aRootNode 
-			nodeAt: sourceIndex 
+			terminalAt: sourceIndex 
 			ifFound: [:aTerminalNode | sourceNode := aTerminalNode ]
 			ifNone: [ self error:'can not find terminal' ].  	
 		 
 		aRootNode 
-			nodeAt: targetIndex 
+			terminalAt: targetIndex 
 			ifFound: [:aTerminalNode | targetNode := aTerminalNode ]
 			ifNone: [ self error:'can not find terminal' ].
 			
