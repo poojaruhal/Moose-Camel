@@ -1,11 +1,13 @@
 {
-	"commentStamp" : "PoojaRani 7/15/2018 16:06",
+	"commentStamp" : "",
 	"super" : "NlpTerminal",
 	"category" : "Moose-Camel-AST",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
-	"name" : "NlpVerb",
+	"instvars" : [
+		"label"
+	],
+	"name" : "NlpUnknownTerminal",
 	"type" : "normal"
 }

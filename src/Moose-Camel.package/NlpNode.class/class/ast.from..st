@@ -7,7 +7,7 @@ ast: aTerminalCollection from: aParseString
 
 	parseTree := Compiler class evaluate: '#' , aParseString.
 	parseTree ifNotNil: [
-		root := NlpNode labelled: parseTree first.
+		root := NlpNonTerminal labelled: parseTree first.
 		parseTree allButFirstDo: [ :aSubTree |
 			self buildTreeOf: root and: aTerminalStack from: aSubTree ] ].
 

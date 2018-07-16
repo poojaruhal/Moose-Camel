@@ -6,7 +6,7 @@ buildTreeOf: aNonTerminal and: theTerminalStack from: aTree
 		ifTrue: [ aNonTerminal add: theTerminalStack pop ]
 		ifFalse: [ "otherwuse create a new sub- non-terminal using the first item as a label"
 			| aSubNonTerminal |
-			aSubNonTerminal := NlpNode labelled: aTree first.
+			aSubNonTerminal := NlpNonTerminal labelled: aTree first.
 			"add it to the parent non-terminal node"
 			aNonTerminal add: aSubNonTerminal.
 			"and repeat the recursion step with all items except the first which is our label"

@@ -6,4 +6,4 @@ nodeClassLabelled: aString
 	^ (self allSubclasses
 		reject: [ :aNodeClass | aNodeClass isAbstract ])
 		detect: [ :aNodeClass | aNodeClass label = aString ]
-			ifNone: [ self error: 'Can not find a node for ', aString ]
+			ifNone: [ self unknownLabelled: aString ]

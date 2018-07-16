@@ -1,7 +1,7 @@
 printing
 printOn: aStream
 	aStream
-		nextPutAll: self class label;
+		nextPutAll: self label;
 		space;
 		nextPut: $(;
 		nextPutAll: self word;

@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "NlpNonTerminal",
+	"category" : "Moose-Camel-AST",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"label"
+	],
+	"name" : "NlpUnknownNonTerminal",
+	"type" : "normal"
+}

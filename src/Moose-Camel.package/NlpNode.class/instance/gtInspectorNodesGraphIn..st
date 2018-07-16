@@ -5,10 +5,10 @@ gtInspectorNodesGraphIn: aComposite
 	^ aComposite roassal2
 			title: 'Graph';
 			initializeView: [ RTMondrian new ];
-			painting: [ :aBuilder :aNode |
+			painting: [ :aBuilder |
 				aBuilder shape label
 					color: Color gray.
-				aBuilder nodes: aNode withAllNodes.
+				aBuilder nodes: self withAllNodes.
 				aBuilder edges
 					connectToAll: #nodes.
 				aBuilder shape

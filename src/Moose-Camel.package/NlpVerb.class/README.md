@@ -5,4 +5,3 @@ Every sentence has a subject and a main verb. Verbs describe what the subject is
 Verbs can be of the following types:
  - a verb in present tense; third person and non-third person
  - a verb in past tense
- - a verb in past participle

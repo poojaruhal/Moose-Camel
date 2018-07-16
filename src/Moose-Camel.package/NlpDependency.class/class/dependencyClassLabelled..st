@@ -5,4 +5,4 @@ dependencyClassLabelled: aString
 	
 	^ self allSubclasses
 		detect: [ :aDependencyClass | aDependencyClass label = aString ]
-		ifNone: [ self error: 'Can not find a depedency class for ', aString ]
+		ifNone: [ self generateSubclassLabelled: aString ]

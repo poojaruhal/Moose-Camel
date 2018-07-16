@@ -1,3 +1,3 @@
 printing
 printOn: aStream
-	aStream nextPutAll: self class label asString
+	aStream nextPutAll: self label asString
