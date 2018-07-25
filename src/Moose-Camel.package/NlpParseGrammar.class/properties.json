@@ -1,0 +1,19 @@
+{
+	"commentStamp" : "",
+	"super" : "PPCompositeParser",
+	"category" : "Moose-Camel",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"string",
+		"name",
+		"space",
+		"word",
+		"node",
+		"terminal",
+		"nonTerminal"
+	],
+	"name" : "NlpParseGrammar",
+	"type" : "normal"
+}

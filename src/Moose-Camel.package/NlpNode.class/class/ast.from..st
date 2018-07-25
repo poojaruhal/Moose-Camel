@@ -1,14 +1,20 @@
 instance creation
 ast: aTerminalCollection from: aParseString
 	"get an ast from parse string"
-	| parseTree aTerminalStack root|
-	
-	aTerminalStack := aTerminalCollection as: Stack.
+	<return: #NlpRoot>
 
-	parseTree := Compiler class evaluate: '#' , aParseString.
-	parseTree ifNotNil: [
-		root := NlpNonTerminal labelled: parseTree first.
-		parseTree allButFirstDo: [ :aSubTree |
-			self buildTreeOf: root and: aTerminalStack from: aSubTree ] ].
+	^ aParseString trim
+		ifEmpty: [ NlpRoot new ]
+		ifNotEmpty: [ :aTrimmedParseString |
+			| parseTree aRoot  aTerminalStack |
+			
+			[ parseTree := NlpParseGrammar new parse: aTrimmedParseString ]
+				on: Exception do: [ :e | parseTree := #() ].
 
-	^ root
+			aRoot := NlpNonTerminal labelled: parseTree first.
+			aTerminalStack := aTerminalCollection as: Stack.
+
+			parseTree allButFirstDo: [ :aSubTree |
+				self buildTreeOf: aRoot and: aTerminalStack from: aSubTree ].
+
+			aRoot ]

@@ -1,12 +1,14 @@
 instance creation
 generateSubclassLabelled: aString
-	| aClass |
+	| aClass aSubclassName |
 
-	aClass := self subclass: (self name, aString asLowercase capitalized)
+	aSubclassName := ((aString splitOn: '\W' asRegex) select: #isNotEmpty) reduce: [ :a :b | a capitalized, b capitalized ].
+
+	aClass := self subclass: (self name, aSubclassName)
 		instanceVariableNames: ''
 		classVariableNames: ''
 		package: self category.
-		
+
 	aClass class compile: 'label
 	<return: #String>
 	

@@ -1,0 +1,3 @@
+modes
+multiplyDivide
+	^ $* asParser / $/ asParser

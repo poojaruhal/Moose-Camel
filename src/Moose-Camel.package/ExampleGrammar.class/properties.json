@@ -1,0 +1,22 @@
+{
+	"commentStamp" : "",
+	"super" : "PPCompositeParser",
+	"category" : "Moose-Camel",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"leftParanthesis",
+		"digit",
+		"plusMinus",
+		"rightParanthesis",
+		"airthimeticParser",
+		"multiplyDivide",
+		"power",
+		"evaluateParanthesis",
+		"evaluateExpression",
+		"term"
+	],
+	"name" : "ExampleGrammar",
+	"type" : "normal"
+}
