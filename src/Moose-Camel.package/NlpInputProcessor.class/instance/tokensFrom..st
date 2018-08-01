@@ -1,4 +1,4 @@
-private
+json - processing
 tokensFrom: aJsonOutput
 	<return: #Collection of: #NlpDictionary>
 

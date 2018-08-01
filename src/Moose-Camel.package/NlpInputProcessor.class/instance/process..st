@@ -1,5 +1,5 @@
 api - processing
-generateAst: aQueryString
+process: aQueryString
 	| aParsedResponse |
 	
 	aParsedResponse := self parsedApiResponse: aQueryString. 

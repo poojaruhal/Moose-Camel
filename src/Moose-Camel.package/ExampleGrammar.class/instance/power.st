@@ -1,3 +1,0 @@
-grammar
-power
-	^ $^ asParser

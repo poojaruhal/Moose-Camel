@@ -1,4 +1,4 @@
-api - processing
+private
 extractForm: aBlock from: theTokens
 	"extract grammer form, only noun and verbs"
 	| theWordTokens theNonStopwordTokens |

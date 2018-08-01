@@ -1,4 +1,4 @@
-private
+json - processing
 dependenciesFrom: aJsonOutput
 	"get constituency parse out of sentence"
 	^ (aJsonOutput at: 'sentences')

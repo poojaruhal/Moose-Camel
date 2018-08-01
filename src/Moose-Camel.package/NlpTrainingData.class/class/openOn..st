@@ -15,15 +15,15 @@ openOn: aString
 		from: #one;
 		andShow: [ :composite :aQuestion |
 			| ast |
-			ast := NlpInputProcessor new generateAst: aQuestion asString.
-			"ast gtInspectorNodesGraphIn: composite"
+			ast := NlpInputProcessor new process: aQuestion asString.
+			ast gtInspectorNodesGraphIn: composite
 		].
 		(browser transmit)
 		to: #third;
 		from: #one;
 		andShow: [ :composite :aQuestion |
 			| grammarForm |
-			grammarForm := NlpInputProcessor new extractGrammarForm:  aQuestion asString.
+			grammarForm := NlpInputProcessor new grammarFormOf:  aQuestion asString.
 			"grammarForm gtInspectorGrammarForm: composite."
 		].
 	 browser openOn: aString lines.

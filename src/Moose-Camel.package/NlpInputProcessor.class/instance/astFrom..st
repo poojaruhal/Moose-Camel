@@ -1,4 +1,4 @@
-private
+api - processing
 astFrom: aJsonOutput
 	| anAST |
 	

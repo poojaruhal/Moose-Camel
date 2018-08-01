@@ -1,8 +1,7 @@
-Nlp
+gt-inspector-extension
 gtInspectorGrammarForm: aComposite
 	<gtInspectorPresentationOrder: 3>
-	self halt.
 	^ aComposite text
 			title: 'Grammar Form';
-			display: [ self contents ];
+			display: [ self contents];
 			when: [ self contents notEmpty]

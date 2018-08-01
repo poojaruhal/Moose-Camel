@@ -1,4 +1,4 @@
-private
+json - processing
 parseFrom: aJsonOutput
 	^ (aJsonOutput at: 'sentences')
 			ifEmpty: [ '' ]
