@@ -1,11 +1,9 @@
 api - processing
-process: aQueryString
-	| aResponse aParsedResponse |
+parsedApiResponse: aQueryString
+	| aResponse  |
 
 	aResponse := ZnClient new
 		post: 'http://localhost:9000/?properties={"annotators": "tokenize,ssplit,pos,depparse,truecase,lemma,parse", "outputFormat": "json"}'
 		contents: aQueryString.
 	
-	aParsedResponse := NeoJSONReader fromString: aResponse.
-	
-	^ self astFrom: aParsedResponse
+	 ^ NeoJSONReader fromString: aResponse.

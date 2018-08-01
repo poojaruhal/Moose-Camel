@@ -14,7 +14,7 @@ openOn: aString
 		andShow: [ :composite :aText |
 			| ast |
 			ast := NlpInputProcessor new process: aText asString.
-			ast gtInspectorNodesIn: composite
+			"ast gtInspectorNodesIn: composite"
 		].
 	(browser transmit)
 		to: #tree;
@@ -22,6 +22,6 @@ openOn: aString
 		andShow: [ :composite :aText |
 			| ast |
 			ast := NlpInputProcessor new process: aText asString.
-			ast gtInspectorNodesGraphIn: composite
+			"ast gtInspectorNodesGraphIn: composite"
 		].
 	browser openOn: aString
