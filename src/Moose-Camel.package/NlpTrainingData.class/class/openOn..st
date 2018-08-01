@@ -24,6 +24,6 @@ openOn: aString
 		andShow: [ :composite :aQuestion |
 			| grammarForm |
 			grammarForm := NlpInputProcessor new grammarFormOf:  aQuestion asString.
-			"grammarForm gtInspectorGrammarForm: composite."
+			grammarForm gtInspectorGrammarForm: composite.
 		].
 	 browser openOn: aString lines.

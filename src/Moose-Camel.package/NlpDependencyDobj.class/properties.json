@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "NlpDependency",
-	"category" : "Moose-Camel-AST",
+	"category" : "Moose-Camel-AST - Dependencies",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

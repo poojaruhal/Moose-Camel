@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "AliakseiSyrel 7/14/2018 23:33",
 	"super" : "NlpVerb",
-	"category" : "Moose-Camel-AST",
+	"category" : "Moose-Camel-AST - Nodes",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "NlpNode",
-	"category" : "Moose-Camel-AST",
+	"category" : "Moose-Camel-AST - Nodes",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

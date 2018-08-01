@@ -1,0 +1,3 @@
+testing
+isSimiliarTo: exampleQuestionLinkedList
+	^ self pairsSimilarityWith: exampleQuestionLinkedList

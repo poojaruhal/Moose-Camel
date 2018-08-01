@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "AliakseiSyrel 7/14/2018 23:37",
-	"super" : "NlpTerminal",
-	"category" : "Moose-Camel-AST",
+	"super" : "NlpVerb",
+	"category" : "Moose-Camel-AST - Nodes",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

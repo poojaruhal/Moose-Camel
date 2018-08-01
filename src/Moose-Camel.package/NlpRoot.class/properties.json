@@ -1,7 +1,7 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "PoojaRani 8/1/2018 20:35",
 	"super" : "NlpNonTerminal",
-	"category" : "Moose-Camel-AST",
+	"category" : "Moose-Camel-AST - Nodes",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
