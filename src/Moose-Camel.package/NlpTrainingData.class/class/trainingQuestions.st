@@ -8,6 +8,7 @@ Where are instanceof tests against Integer
 Where are occurences of type "Integer"
 Where is the declaration of type "Foo"
 Where is the declaration of Foo
+What are the deprecated class
 Where are references to type "Foo"
 Where are references to Foo
 Where are casts to type "Integer"

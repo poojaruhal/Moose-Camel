@@ -1,13 +1,11 @@
-Nlp
+public access
 evaluate
 	"comment stating purpose of message"
-	| nlResponse tokens outputQuery queryGrammarForm  queryLemmaForm |
+	| tokens outputQuery queryLemmaForm |
 	"self initialize."
 	
-	nlResponse := self collectCoreNlpResponseDummy.
-	tokens := self getTokens: nlResponse.
+	tokens := NlpInputProcessor new tokens.
 	
-	queryGrammarForm := self extractGrammarForm: tokens.
 	queryLemmaForm := self extractLemmaForm: tokens.
 	
 	self processLemmaForm: queryLemmaForm.

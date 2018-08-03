@@ -4,6 +4,6 @@ basicDependencies
 	
 	| basicDependencies jsonOutput |
 	
-	 jsonOutput := self collectCoreNlpResponseDummy.
+	 jsonOutput := NlpInputProcessor new coreNlpApiDummyResponse.
 	 basicDependencies := self getBasicDependencies: jsonOutput.
 	 ^ basicDependencies

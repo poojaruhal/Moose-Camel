@@ -3,7 +3,7 @@ lemmaForm
 	<gtExample>
 	| tokens lemmaForm |
 
-	tokens := self tokens.
+	tokens := NlpInputProcessor new tokens.
 	lemmaForm := self extractLemmaForm: tokens.
 
 	self assert: lemmaForm asArray equals: #(deprecate class).

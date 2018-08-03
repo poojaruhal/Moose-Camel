@@ -3,8 +3,8 @@ grammarForm
 	<gtExample>
 	| grammarForm |
 	
-	grammarForm := self grammarFormOf: (NlpInputProcessor new  developerQuestion).
-
-	self assert: grammarForm asArray equals: #(VBN NN).
+	grammarForm := NlpGrammarForm fromAst: (NlpInputProcessor new process: (NlpInputProcessor new developerQuestion)).
+	
+	self assert: grammarForm equals: (self predefinedGrammarFormOfDeveloperQuestion).
 	
 	^ grammarForm

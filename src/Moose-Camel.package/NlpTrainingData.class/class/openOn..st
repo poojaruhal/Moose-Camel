@@ -5,7 +5,7 @@ openOn: aString
 	browser := GLMTabulator new.
 	browser
 		column: #one span: 0.5;
-		column: #two;
+		column: #two span: 0.7;
 		column: #third.
 	(browser transmit)
 		to: #one;
@@ -20,10 +20,9 @@ openOn: aString
 		].
 		(browser transmit)
 		to: #third;
-		from: #one;
-		andShow: [ :composite :aQuestion |
+		from: #two;
+		andShow: [ :composite :aQuestion :ast |
 			| grammarForm |
-			grammarForm := NlpInputProcessor new grammarFormOf:  aQuestion asString.
-			grammarForm gtInspectorGrammarForm: composite.
-		].
+			grammarForm := NlpGrammarForm fromAst: ast.
+			grammarForm gtInspectorGrammarForm: composite.		].
 	 browser openOn: aString lines.
