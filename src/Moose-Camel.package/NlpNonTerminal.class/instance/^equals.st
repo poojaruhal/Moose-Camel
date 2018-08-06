@@ -1,3 +1,4 @@
 comparing
 = aNonTerminalNode
-	^ self word = aNonTerminalNode word
+	 (self label = aNonTerminalNode label)
+		ifTrue:[^((self hasParent) and: (self parent = aNonTerminalNode parent))].

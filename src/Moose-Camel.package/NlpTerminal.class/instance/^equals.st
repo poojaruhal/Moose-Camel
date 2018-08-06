@@ -1,3 +1,4 @@
 comparing
 = aTerminalNode
-	^ self word = aTerminalNode word
+	(aTerminalNode isKindOf: NlpTerminal ) 
+	ifTrue: [	^ self word = aTerminalNode word ]
