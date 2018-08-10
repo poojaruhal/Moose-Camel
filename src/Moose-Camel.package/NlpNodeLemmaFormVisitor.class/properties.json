@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "NlpNodeVisitor",
+	"category" : "Moose-Camel-AST - Visitor",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"lemmaForm"
+	],
+	"name" : "NlpNodeLemmaFormVisitor",
+	"type" : "normal"
+}

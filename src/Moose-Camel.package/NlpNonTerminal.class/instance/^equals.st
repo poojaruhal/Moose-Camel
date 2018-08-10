@@ -1,4 +1,9 @@
 comparing
 = aNonTerminalNode
-	 (self label = aNonTerminalNode label)
-		ifTrue:[^((self hasParent) and: (self parent = aNonTerminalNode parent))].
+	self == aNonTerminalNode
+		ifTrue: [ ^ true ].
+
+	self species = aNonTerminalNode species
+		ifFalse: [ ^ false ].
+
+	^ self nodes = aNonTerminalNode nodes

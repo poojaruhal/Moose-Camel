@@ -1,3 +1,4 @@
 comparing
-= anGrammarForm
-	^ self nodes = anGrammarForm nodes.
+= aGrammarForm
+
+	^ (self nodes collect: #class) = (aGrammarForm nodes collect: #class)

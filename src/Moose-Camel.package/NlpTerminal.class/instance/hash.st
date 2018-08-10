@@ -1,3 +1,3 @@
 comparing
 hash
-	^ self word hash bitXor:  self className hash
+	^ self className hash bitXor: self word hash

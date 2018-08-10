@@ -3,4 +3,4 @@ open
 	
 	<script: 'self open'>
 	
-	self openOn:  self trainingQuestions
+	self openOn:  self frequentlyAskedQuestions

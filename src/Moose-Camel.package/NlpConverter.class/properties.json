@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "NlpDependencyVisitor",
+	"category" : "Moose-Camel-AST - Visitor",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"question",
+		"query"
+	],
+	"name" : "NlpConverter",
+	"type" : "normal"
+}

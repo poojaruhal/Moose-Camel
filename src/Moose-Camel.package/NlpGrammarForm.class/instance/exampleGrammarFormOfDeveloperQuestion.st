@@ -1,5 +1,5 @@
 gt-examples
-predefinedGrammarFormOfDeveloperQuestion
+exampleGrammarFormOfDeveloperQuestion
 	<gtExample>
 	| grammarForm |
 	
@@ -7,4 +7,4 @@ predefinedGrammarFormOfDeveloperQuestion
 	grammarForm addNode: (NlpPastParticiple new word: 'deprecated').
 	grammarForm addNode: (NlpSingularNoun new word: 'class').
 	
-	^ grammarForm.
+	^ grammarForm

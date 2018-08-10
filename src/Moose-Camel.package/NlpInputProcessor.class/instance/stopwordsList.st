@@ -1,4 +1,4 @@
-sentence - processing
+sentence - preprocessing
 stopwordsList
 	"list of stopwords"
 	
