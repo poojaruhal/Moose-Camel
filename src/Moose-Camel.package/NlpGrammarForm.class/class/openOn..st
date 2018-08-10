@@ -32,7 +32,7 @@ openOn: aString
 			grammarFormQuestion2 := NlpGrammarForm fromAst: ast.
 			grammarFormQuestion2 gtInspectorGrammarForm: composite ].
 		(browser transmit)
-		from: #fourth;
+		from: #two;
 		to: #fifth;
 		andShow: [ :composite |
 			grammarFormQuestion1 gtInspectorGrammarFormComparision: composite  withGrammarForm: grammarFormQuestion2
