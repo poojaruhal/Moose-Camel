@@ -1,5 +1,5 @@
-instance creation
-openOn: aString
+aSentence-Analysis
+aQuestionTreeGraphRepresentationOn: aString
 	| browser |
 	browser := GLMTabulator new.
 	browser

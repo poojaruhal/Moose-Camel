@@ -1,14 +1,13 @@
-instance creation
-openOn: aString
+as yet unclassified
+questionComparisionOn: aString
 
-	| browser grammarFormQuestion1 grammarFormQuestion2  |
+	| browser grammarFormQuestion1 grammarFormQuestion2 question1 question2  |
 	browser := GLMTabulator new.
 	browser
-		column: #one span: 0.6;
+		column: #one span: 1;
 		column: #two span: 1;
-		column: #third span: 0.2;
-		column: #fourth span: 0.2;
-		column: #fifth span: 0.2.
+		column: #third;
+		column: #fourth.
 	(browser transmit)
 		to: #one;
 		andShow: [ :a | a list display: [ :questions | questions ] ].
@@ -20,21 +19,41 @@ openOn: aString
 		from: #one;
 		andShow: [ :composite :aQuestion |
 			| ast |
+			question1 := aQuestion.
 			ast := NlpInputProcessor new process: aQuestion asString.
 			grammarFormQuestion1 := NlpGrammarForm fromAst: ast.
-			grammarFormQuestion1 gtInspectorGrammarForm: composite ].
+			grammarFormQuestion1 gtInspectorGrammarForm: composite.
+"			composite text
+				title: 'Question 1';
+				display: question1."
+			 ].
 		(browser transmit)
-		to: #fourth;
+		to: #third;
 		from: #two;
 		andShow: [ :composite :aQuestion |
-				| ast |
+			| ast |
+			question2 := aQuestion.
 			ast := NlpInputProcessor new process: aQuestion asString.
 			grammarFormQuestion2 := NlpGrammarForm fromAst: ast.
-			grammarFormQuestion2 gtInspectorGrammarForm: composite ].
+			grammarFormQuestion2 gtInspectorGrammarForm: composite.
+"				composite text
+				title: 'Question 2';
+				display: question2."
+			 ].
 		(browser transmit)
+		to: #third;
 		from: #two;
-		to: #fifth;
 		andShow: [ :composite |
 			grammarFormQuestion1 gtInspectorGrammarFormComparision: composite  withGrammarForm: grammarFormQuestion2
+			 ].
+		(browser transmit)
+		from: #two;
+		to: #fourth;
+		andShow: [ :composite |
+			|distance|
+			distance:= NlpQuestionSimilarity new distanceOf: question1  from: question2.
+			composite text
+				title: 'Semantic Distance';
+				display: distance.
 			 ].
 	 browser openOn: aString lines.

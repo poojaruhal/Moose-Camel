@@ -1,13 +1,13 @@
-instance creation
-openOn: aString
+sentence - structure
+structureAnalysisOfaQuestionOn: aString
 
 	| browser |
 	browser := GLMTabulator new.
 	browser
 		column: #one span: 0.6;
 		column: #two span: 1;
-		column: #third span: 0.2;
-		column: #fourth span: 0.2.
+		column: #third span: 0.4;
+		column: #fourth span: 0.4.
 	(browser transmit)
 		to: #one;
 		andShow: [ :a | a list display: [ :questions | questions ] ].
