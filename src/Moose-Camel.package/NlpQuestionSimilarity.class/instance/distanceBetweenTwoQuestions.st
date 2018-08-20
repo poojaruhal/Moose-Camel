@@ -3,8 +3,8 @@ distanceBetweenTwoQuestions
 	<gtExample>
 	
 	|question1 question2 distance|
-	question1 := 'What are the deprecated classes'.
-	question2 := 'Which classes are the deprecated'.
+	question1 := 'The hunter killed the lion'.
+	question2 := 'The lion was killed by the hunter'.
 	
 	distance:=  self distanceOf: question1 from: question2 .
 	

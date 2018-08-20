@@ -1,11 +1,6 @@
-as yet unclassified
+sentence - preprocessing
 removeStopwordsFrom: aQuestion
-	
-	
-	| aParsedResponse tokens sentenceAfterStopwordsRemoval |
-	
-	aParsedResponse := self parsedApiResponse: aQuestion. 
-	tokens := self tokensFrom: aParsedResponse.
-	sentenceAfterStopwordsRemoval := self removeStopwords: tokens.
-	
-	^  sentenceAfterStopwordsRemoval
+	| aCoreResponse |
+
+	aCoreResponse := self serviceResponse: aQuestion. 
+	^ aCoreResponse tokens withoutStopwords

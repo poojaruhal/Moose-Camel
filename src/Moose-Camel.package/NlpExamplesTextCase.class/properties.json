@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "GtExampleTestCase",
-	"category" : "Moose-Camel",
+	"category" : "Moose-Camel-Examples",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

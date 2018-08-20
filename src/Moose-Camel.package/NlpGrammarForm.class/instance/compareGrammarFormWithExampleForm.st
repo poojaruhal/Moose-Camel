@@ -1,14 +1,17 @@
 gt-examples
 compareGrammarFormWithExampleForm
 	<gtExample>
-	|exampleForm grammarFromUsingAst|
+	|exampleForm grammarFrom|
 	
-	exampleForm:= self exampleGrammarFormOfDeveloperQuestion.
+	exampleForm:= self exampleGrammarForm.
 	
-	grammarFromUsingAst := self exampleGrammarFormOfDeveloperQuestionUsingAst.
+	grammarFrom := self grammarForm.
 	
-	 self assert: grammarFromUsingAst equals: exampleForm.
+ 	^ grammarFrom calculateDistanceWith: exampleForm.
+
 	
-	^ grammarFromUsingAst
+	" ^ self assert: grammarFrom equals: exampleForm."
+	
+
 	
 	

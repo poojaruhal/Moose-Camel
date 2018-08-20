@@ -1,3 +1,3 @@
 api - processing
-findLemmaFormOfaToken: aTokenDictionary
-	^ aTokenDictionary at: 'lemma'
+findLemmaFormOfaToken: aToken
+	^ aToken lemma

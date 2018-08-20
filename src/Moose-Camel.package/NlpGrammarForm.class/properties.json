@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "Object",
-	"category" : "Moose-Camel",
+	"category" : "Moose-Camel-Grammar",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

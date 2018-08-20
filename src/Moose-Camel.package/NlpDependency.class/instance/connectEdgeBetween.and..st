@@ -4,7 +4,5 @@ connectEdgeBetween: aSourceNode and: aTargetNode
 	targetNode := aTargetNode.
 	
 	sourceNode addDependency: self.
-	targetNode addDependency: self.
-
-
+	targetNode addDependency: self
 	

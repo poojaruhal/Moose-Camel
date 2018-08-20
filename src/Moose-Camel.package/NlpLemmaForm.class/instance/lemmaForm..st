@@ -1,6 +1,7 @@
-sentence - preprocessing
-lemmaForm: aCollectionOfTokens
-	<return: #Collection of: #Words>
+accessing
+lemmaForm: aQuestion
+	<return: #Collection of: #String>
+	| aResponse |
 
-	^ aCollectionOfTokens 
-		collect: [:aTokenDictioanry | self findLemmaFormOfaToken: aTokenDictioanry]
+	aResponse := NlpInputProcessor new serviceResponse: aQuestion.
+	^ aResponse tokens withoutStopwords lemmas

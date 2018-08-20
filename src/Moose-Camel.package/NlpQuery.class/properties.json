@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "AliakseiSyrel 7/14/2018 22:55",
 	"super" : "Object",
-	"category" : "Moose-Camel",
+	"category" : "Moose-Camel-Query - Model",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

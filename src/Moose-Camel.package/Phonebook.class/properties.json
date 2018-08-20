@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Moose-Camel-Spotter",
+	"classinstvars" : [
+		"default"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"contacts"
+	],
+	"name" : "Phonebook",
+	"type" : "normal"
+}
