@@ -7,7 +7,8 @@ questionComparisionOn: aString
 		column: #one span: 1;
 		column: #two span: 1;
 		column: #third;
-		column: #fourth.
+		column: #fourth;
+		column: #fifth.
 	(browser transmit)
 		to: #one;
 		andShow: [ :a | a list display: [ :questions | questions ] ].
@@ -44,16 +45,31 @@ questionComparisionOn: aString
 		to: #third;
 		from: #two;
 		andShow: [ :composite |
-			grammarFormQuestion1 gtInspectorGrammarFormComparision: composite  withGrammarForm: grammarFormQuestion2
+			|distance|
+			distance := (NlpStrcutureDistance new from: question1  to: question2).
+				composite text
+				title: 'Structural Distance';
+				display: distance.
 			 ].
 		(browser transmit)
 		from: #two;
 		to: #fourth;
 		andShow: [ :composite |
-			|distance|
-			distance:= NlpQuestionSimilarity new distanceOf: question1  from: question2.
+			|distance  |
+			distance := (NlpSemanticDistance new from: question1  to: question2).
 			composite text
 				title: 'Semantic Distance';
 				display: distance.
+			 ].
+		(browser transmit)
+			from: #two;
+			to: #fifth;
+			andShow: [ :composite |
+				|distance nlpQuestionsDistance |
+				nlpQuestionsDistance := NlpQuestionsDistance new between:question1 and: question2.
+				distance:= nlpQuestionsDistance calculateDistance.
+				composite text
+					title: 'Total Distance';
+					display: distance.
 			 ].
 	 browser openOn: aString lines.

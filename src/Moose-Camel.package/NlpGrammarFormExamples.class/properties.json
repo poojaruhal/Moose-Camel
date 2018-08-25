@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
 	"super" : "Object",
-	"category" : "Moose-Camel",
+	"category" : "Moose-Camel-Examples",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "NlpQuestionSimilarity",
+	"name" : "NlpGrammarFormExamples",
 	"type" : "normal"
 }

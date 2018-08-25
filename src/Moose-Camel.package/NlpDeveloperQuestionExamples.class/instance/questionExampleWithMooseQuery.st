@@ -1,5 +1,5 @@
 gt-examples
-questionExample
+questionExampleWithMooseQuery
 	<gtExample>
 	<description: 'Find all the methods that have word *length* in their name.'>
 

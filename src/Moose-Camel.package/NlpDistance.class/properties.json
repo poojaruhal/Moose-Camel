@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "Magnitude",
+	"category" : "Moose-Camel-Distance",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"from",
+		"to"
+	],
+	"name" : "NlpDistance",
+	"type" : "normal"
+}

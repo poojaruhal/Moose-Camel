@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "PoojaRani 8/25/2018 13:26",
+	"super" : "Object",
+	"category" : "Moose-Camel",
+	"classinstvars" : [
+		"questionOne",
+		"questionTwo"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"questionOne",
+		"questionTwo"
+	],
+	"name" : "NlpQuestionsDistance",
+	"type" : "normal"
+}

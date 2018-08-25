@@ -1,5 +1,5 @@
 gt-examples
-mooseQuery
+mooseQueryOfDeveloperQuestion
 	<gtExample>
 	<description: #'What are the deprecated classes'>
 	

@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "NlpDistance",
+	"category" : "Moose-Camel-Distance",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "NlpSemanticDistance",
+	"type" : "normal"
+}
