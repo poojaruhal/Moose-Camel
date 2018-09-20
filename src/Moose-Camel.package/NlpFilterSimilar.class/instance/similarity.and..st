@@ -1,6 +1,6 @@
 as yet unclassified
 similarity: aString and: aQuery
-	"Return a normalized  similarity [0...1], where 0 are not similar, 1 are equal"
+	"Return a distance between questions, the lower the better"
 	<return: #Number>
-	
-	^ self shouldBeImplemented
+
+	^ NlpQuestionsDistance new questionOne: aString; questionTwo: aQuery; calculateDistance.

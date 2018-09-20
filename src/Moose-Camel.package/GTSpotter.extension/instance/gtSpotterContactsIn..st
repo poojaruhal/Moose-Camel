@@ -1,6 +1,6 @@
 *Moose-Camel
 gtSpotterContactsIn: aComposite
-	<spotterOrder:0>
+	"<spotterOrder:0>"
 	
 	^ aComposite listProcessor
 		title: 'Contacts';

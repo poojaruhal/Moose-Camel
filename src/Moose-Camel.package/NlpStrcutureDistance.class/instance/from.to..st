@@ -12,6 +12,9 @@ from: questionOne to: questionTwo
 	list1 := grammarFormOne nodes collect: #class.
 	list2 := grammarFormTwo nodes collect: #class.
 	
-	distance:=  (list1 pairsSimilarityWith: list2) asFloat.
+	list1 = list2
+		ifTrue: [ ^ 0 ].
+	
+	distance := 1.0 - (list1 pairsSimilarityWith: list2) asFloat.
 	
 	^ distance.

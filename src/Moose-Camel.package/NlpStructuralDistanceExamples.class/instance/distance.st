@@ -1,7 +1,7 @@
 accessing
 distance
 	<gtExample>
-	<description:'calculate structural distance between two examples'>
+	<description:'deprecated classes'>
 	|questionOne questionTwo|
 	
 	questionOne := NlpCoreResponseExamples new developerQuestion.

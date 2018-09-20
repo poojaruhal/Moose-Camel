@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "NlpDependency",
+	"category" : "Moose-Camel-AST - Dependencies",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "NlpDependencynummod",
+	"type" : "normal"
+}
