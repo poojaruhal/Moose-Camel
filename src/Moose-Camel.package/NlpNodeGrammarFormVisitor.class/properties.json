@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "NlpNodeVisitor",
-	"category" : "Moose-Camel-AST - Visitor",
+	"category" : "Moose-Camel",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

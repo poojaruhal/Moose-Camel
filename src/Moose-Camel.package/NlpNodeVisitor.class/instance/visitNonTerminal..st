@@ -1,2 +1,0 @@
-visiting
-visitNonTerminal: aNonTerminal
