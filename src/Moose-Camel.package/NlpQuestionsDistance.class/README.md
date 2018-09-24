@@ -1,6 +1,6 @@
 I am responsibile for calculating the distance between question one and question two. 
-Distance can by any type of Distance class.
+Distance can be any type of Distance class which is NlpSemanticDistance or NlpStrcutureDistance.
 
-Instance Varibales :
+Instance Varibales
 	<questionOne> 
 	<questionTwo>
