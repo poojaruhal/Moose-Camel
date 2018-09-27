@@ -1,0 +1,1 @@
+I am a GrammarFormVisitor. I take a sentence in natural language. I extract noun and variables from the sentence and add to a gramar form collection. Stopwords are removed from the sentence.

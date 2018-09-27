@@ -6,6 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "NlpExamplesTextCase",
+	"name" : "NlpExamplesTestCase",
 	"type" : "normal"
 }
