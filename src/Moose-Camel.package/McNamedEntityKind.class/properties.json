@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "McQueryContext",
+	"category" : "Moose-Camel-Query - Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"name"
+	],
+	"name" : "McNamedEntityKind",
+	"type" : "normal"
+}

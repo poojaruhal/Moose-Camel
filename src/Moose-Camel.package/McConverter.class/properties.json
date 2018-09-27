@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "PoojaRani 9/26/2018 11:37",
+	"super" : "McaDependencyVisitor",
+	"category" : "Moose-Camel",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"question",
+		"query"
+	],
+	"name" : "McConverter",
+	"type" : "normal"
+}

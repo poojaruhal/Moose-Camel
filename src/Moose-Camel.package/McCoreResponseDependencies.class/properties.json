@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "Array",
+	"category" : "Moose-Camel-CoreNLP",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "McCoreResponseDependencies",
+	"type" : "variable"
+}

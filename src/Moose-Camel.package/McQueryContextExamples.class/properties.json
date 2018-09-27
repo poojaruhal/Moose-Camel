@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "AliakseiSyrel 7/14/2018 23:13",
+	"super" : "Object",
+	"category" : "Moose-Camel-Examples",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "McQueryContextExamples",
+	"type" : "normal"
+}

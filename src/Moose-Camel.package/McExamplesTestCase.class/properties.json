@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "GtExampleTestCase",
+	"category" : "Moose-Camel-Examples",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "McExamplesTestCase",
+	"type" : "normal"
+}

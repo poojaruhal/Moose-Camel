@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "McDistance",
+	"category" : "Moose-Camel-Distance",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"distance"
+	],
+	"name" : "McStrcutureDistance",
+	"type" : "normal"
+}

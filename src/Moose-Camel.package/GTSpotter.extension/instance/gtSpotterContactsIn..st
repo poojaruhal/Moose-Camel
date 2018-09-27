@@ -4,6 +4,6 @@ gtSpotterContactsIn: aComposite
 	
 	^ aComposite listProcessor
 		title: 'Contacts';
-		allCandidates: [Phonebook default contacts];
+		allCandidates: [McPhonebook default contacts];
 		filter: GTFilterSubstring;
 		wantsToDisplayOnEmptyQuery: true

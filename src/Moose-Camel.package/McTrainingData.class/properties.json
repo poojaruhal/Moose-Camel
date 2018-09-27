@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "PoojaRani 9/27/2018 20:59",
+	"super" : "Object",
+	"category" : "Moose-Camel",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "McTrainingData",
+	"type" : "normal"
+}

@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "PoojaRani 5/13/2018 16:29",
+	"super" : "McQueryContext",
+	"category" : "Moose-Camel-Query - Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"annotationName"
+	],
+	"name" : "McAnnotationNameContext",
+	"type" : "normal"
+}

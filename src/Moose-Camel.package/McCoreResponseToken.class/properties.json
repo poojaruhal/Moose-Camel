@@ -1,0 +1,23 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Moose-Camel-CoreNLP",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"word",
+		"index",
+		"originalText",
+		"after",
+		"lemma",
+		"pos",
+		"before",
+		"characterOffsetBegin",
+		"truecaseText",
+		"characterOffsetEnd",
+		"truecase"
+	],
+	"name" : "McCoreResponseToken",
+	"type" : "normal"
+}

@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "PoojaRani 9/26/2018 11:43",
+	"super" : "McaNodeVisitor",
+	"category" : "Moose-Camel",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"grammarForm"
+	],
+	"name" : "McNodeGrammarFormVisitor",
+	"type" : "normal"
+}

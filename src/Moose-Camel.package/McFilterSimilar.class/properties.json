@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "GTOrderedFilter",
+	"category" : "Moose-Camel-Spotter",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"lowerThreshold",
+		"upperThreshold"
+	],
+	"name" : "McFilterSimilar",
+	"type" : "normal"
+}

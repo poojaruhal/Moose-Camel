@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "PoojaRani 5/13/2018 16:13",
+	"super" : "McQueryStep",
+	"category" : "Moose-Camel-Query - Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"context",
+		"entityContext"
+	],
+	"name" : "McQuerySelectionStep",
+	"type" : "normal"
+}
