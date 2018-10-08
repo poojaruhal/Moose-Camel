@@ -3,4 +3,4 @@ questionComaprision
 	
 	<script: 'self questionComaprision'>
 	
-	self questionComparisionOn:  NlpTrainingData frequentlyAskedQuestions
+	self questionComparisionOn:  McTrainingData frequentlyAskedQuestions

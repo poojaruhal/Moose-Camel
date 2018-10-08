@@ -13,7 +13,7 @@ aQuestionTreeGraphRepresentationOn: aString
 		from: #input port: #text;
 		andShow: [ :composite :aText |
 			| ast |
-			ast := NlpInputProcessor new process: aText asString.
+			ast := McInputProcessor new process: aText asString.
 			ast gtInspectorNodesIn: composite
 		].
 	(browser transmit)
@@ -21,7 +21,7 @@ aQuestionTreeGraphRepresentationOn: aString
 		from: #input port: #text;
 		andShow: [ :composite :aText |
 			| ast |
-			ast := NlpInputProcessor new process: aText asString.
+			ast := McInputProcessor new process: aText asString.
 			ast gtInspectorNodesGraphIn: composite
 		].
 	browser openOn: aString

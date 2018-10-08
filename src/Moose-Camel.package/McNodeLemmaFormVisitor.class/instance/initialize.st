@@ -2,4 +2,4 @@ initialization
 initialize
 	super initialize.
 	
-	lemmaForm := NlpLemmaForm new.
+	lemmaForm := McLemmaForm new.

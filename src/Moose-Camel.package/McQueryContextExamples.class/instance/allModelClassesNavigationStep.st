@@ -4,6 +4,6 @@ allModelClassesNavigationStep
 	| aContext aStep |
 
 	aContext := self allModelClassesEntityKind.
-	aStep := NlpQueryNavigationStep  entityKind: aContext.
+	aStep := McQueryNavigationStep  entityKind: aContext.
 	
 	^ aStep

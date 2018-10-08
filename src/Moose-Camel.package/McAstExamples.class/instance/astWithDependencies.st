@@ -3,7 +3,7 @@ astWithDependencies
 	<gtExample>
 	| aResponce theAST |
 	
-	aResponce := NlpCoreResponseExamples new responseFromParsedJson.
+	aResponce := McCoreResponseExamples new responseFromParsedJson.
 	theAST := aResponce ast.
 	
 	^ theAST

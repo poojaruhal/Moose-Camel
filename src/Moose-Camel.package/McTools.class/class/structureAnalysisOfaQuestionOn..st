@@ -16,7 +16,7 @@ structureAnalysisOfaQuestionOn: aString
 		from: #one;
 		andShow: [ :composite :aQuestion |
 			| ast |
-			ast := NlpInputProcessor new process: aQuestion asString.
+			ast := McInputProcessor new process: aQuestion asString.
 			ast gtInspectorNodesGraphIn: composite
 		].
 		(browser transmit)
@@ -24,14 +24,14 @@ structureAnalysisOfaQuestionOn: aString
 		from: #one;
 		andShow: [ :composite :aQuestion |
 			| grammarForm ast |
-			ast := NlpInputProcessor new process: aQuestion asString.
-			grammarForm := NlpGrammarForm fromAst: ast.
+			ast := McInputProcessor new process: aQuestion asString.
+			grammarForm := McGrammarForm fromAst: ast.
 			grammarForm gtInspectorGrammarForm: composite ].
 		(browser transmit)
 		to: #fourth;
 		from: #one;
 		andShow: [ :composite :aQuestion |
 			| lemmaForm  |
-			 lemmaForm := NlpLemmaForm fromQuestion: aQuestion asString.
+			 lemmaForm := McLemmaForm fromQuestion: aQuestion asString.
 			lemmaForm gtInspectorLemmaForm: composite ].
 	 browser openOn: aString lines.

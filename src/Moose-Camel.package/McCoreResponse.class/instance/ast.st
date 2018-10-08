@@ -1,13 +1,13 @@
 api - response
 ast
 	"Create and return terminal nodes from tokens of this response"
-	<return: #Array of: #NlpTerminal>
+	<return: #Array of: #McaTerminal>
 	| theAST |
 	
-	theAST := NlpNode
+	theAST := McaNode
 		ast: self terminals
 		from: self parse.
 		
-	NlpDependency createDependencies: self basicDependencies from: theAST.
+	McaDependency createDependencies: self basicDependencies from: theAST.
 	
 	^ theAST

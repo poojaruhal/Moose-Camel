@@ -4,12 +4,12 @@ calculateDistance
 	|semanticDistance structuralDistance|
 	
 	semanticDistance := 
-		NlpSemanticDistance new 
+		McSemanticDistance new 
 			from: self questionOne
 			to: self questionTwo.
 	
 	structuralDistance :=
-		NlpStrcutureDistance new
+		McStrcutureDistance new
 			from: self questionOne
 			to:self questionTwo.
 			

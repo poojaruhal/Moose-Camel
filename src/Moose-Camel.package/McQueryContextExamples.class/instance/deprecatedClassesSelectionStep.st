@@ -4,6 +4,6 @@ deprecatedClassesSelectionStep
 	| anEntityContext aStep |
 
 	anEntityContext := self deprecatedAnnotationQueryStep.
-	aStep := NlpQuerySelectionStep entityContext: anEntityContext.
+	aStep := McQuerySelectionStep entityContext: anEntityContext.
 
 	^ aStep

@@ -3,7 +3,7 @@ tokens
 	<return: #NlpCoreResponseTokens>
 
 	^ (self json at: 'sentences')
-			ifEmpty: [ NlpCoreResponseTokens new ]
+			ifEmpty: [ McCoreResponseTokens new ]
 			ifNotEmpty: [ :theSentences | ((theSentences at: 1) at: 'tokens')
-				collect: [ :aDictionary | NlpCoreResponseToken fromDictionary: aDictionary ]
-				as: NlpCoreResponseTokens ]
+				collect: [ :aDictionary | McCoreResponseToken fromDictionary: aDictionary ]
+				as: McCoreResponseTokens ]

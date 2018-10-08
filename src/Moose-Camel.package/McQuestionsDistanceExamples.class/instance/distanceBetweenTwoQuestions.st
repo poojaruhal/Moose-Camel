@@ -7,7 +7,7 @@ distanceBetweenTwoQuestions
 	question1 := 'The hunter killed the lion'.
 	question2 := 'The lion was killed by the hunter'.
 	
-	nlpQuestions := NlpQuestionsDistance new questionOne: question1; questionTwo:question2.
+	nlpQuestions := McQuestionsDistance new questionOne: question1; questionTwo:question2.
 	
 	nlpQuestionsDistance := nlpQuestions calculateDistance.
 

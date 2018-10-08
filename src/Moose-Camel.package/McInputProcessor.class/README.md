@@ -7,17 +7,17 @@ I take a user question as an argument, process that question with the help of Co
 Step 1: First we create ast of the developer question. ast contains information about the structure of sentence and also the relation between each words in the sentence.
 
 [[[
-	ast := NlpInputProcessor new process: 'What are the deprecated classes'.
+	ast := McInputProcessor new process: 'What are the deprecated classes'.
 ]]]
 
 Step 2: This is the moose query, I wanted to convert my question to
 [[[
-	mooseQuery:= NlpDeveloperQuestionExamples new 	mooseQueryOfDeveloperQuestion.
+	mooseQuery:= McDeveloperQuestionExamples new 	mooseQueryOfDeveloperQuestion.
 ]]]
 
 Step 3: This converts natural langauge query to the moose query.
 [[[
-	converter := NlpConverter new.
+	converter := McConverter new.
 	ast dependencies first accept: converter.
 	mooseQueryofDeveloperQuestion := converter query.
 ]]]

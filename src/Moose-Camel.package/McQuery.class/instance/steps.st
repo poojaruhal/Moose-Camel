@@ -1,5 +1,5 @@
 accessing
 steps
-	<return: #Collection of: #NlpQueryStep>
+	<return: #Collection of: #McQueryStep>
 
 	^ steps

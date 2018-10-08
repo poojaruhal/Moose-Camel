@@ -3,4 +3,4 @@ initialize
 	super initialize.
 	
 	question := ''.
-	query := NlpQuery new
+	query := McQuery new

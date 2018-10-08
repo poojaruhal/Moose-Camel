@@ -3,4 +3,4 @@ structureAnalysisOfaQuestion
 	
 	<script: 'self structureAnalysisOfaQuestion'>
 	
-	self structureAnalysisOfaQuestionOn:  NlpTrainingData frequentlyAskedQuestions
+	self structureAnalysisOfaQuestionOn:  McTrainingData frequentlyAskedQuestions

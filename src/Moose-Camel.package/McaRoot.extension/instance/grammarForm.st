@@ -1,3 +1,3 @@
 *Moose-Camel
 grammarForm
-	^ NlpGrammarForm fromAst: self
+	^ McGrammarForm fromAst: self

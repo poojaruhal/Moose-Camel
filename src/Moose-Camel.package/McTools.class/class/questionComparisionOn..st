@@ -21,8 +21,8 @@ questionComparisionOn: aString
 		andShow: [ :composite :aQuestion |
 			| ast |
 			question1 := aQuestion.
-			ast := NlpInputProcessor new process: aQuestion asString.
-			grammarFormQuestion1 := NlpGrammarForm fromAst: ast.
+			ast := McInputProcessor new process: aQuestion asString.
+			grammarFormQuestion1 := McGrammarForm fromAst: ast.
 			grammarFormQuestion1 gtInspectorGrammarForm: composite.
 "			composite text
 				title: 'Question 1';
@@ -34,8 +34,8 @@ questionComparisionOn: aString
 		andShow: [ :composite :aQuestion |
 			| ast |
 			question2 := aQuestion.
-			ast := NlpInputProcessor new process: aQuestion asString.
-			grammarFormQuestion2 := NlpGrammarForm fromAst: ast.
+			ast := McInputProcessor new process: aQuestion asString.
+			grammarFormQuestion2 := McGrammarForm fromAst: ast.
 			grammarFormQuestion2 gtInspectorGrammarForm: composite.
 "				composite text
 				title: 'Question 2';
@@ -46,7 +46,7 @@ questionComparisionOn: aString
 		from: #two;
 		andShow: [ :composite |
 			|distance|
-			distance := (NlpStrcutureDistance new from: question1  to: question2).
+			distance := (McStrcutureDistance new from: question1  to: question2).
 				composite text
 				title: 'Structural Distance';
 				display: distance.
@@ -56,7 +56,7 @@ questionComparisionOn: aString
 		to: #fourth;
 		andShow: [ :composite |
 			|distance  |
-			distance := (NlpSemanticDistance new from: question1  to: question2).
+			distance := (McSemanticDistance new from: question1  to: question2).
 			composite text
 				title: 'Semantic Distance';
 				display: distance.
@@ -66,7 +66,7 @@ questionComparisionOn: aString
 			to: #fifth;
 			andShow: [ :composite |
 				|distance nlpQuestionsDistance |
-				nlpQuestionsDistance := NlpQuestionsDistance new between:question1 and: question2.
+				nlpQuestionsDistance := McQuestionsDistance new between:question1 and: question2.
 				distance:= nlpQuestionsDistance calculateDistance.
 				composite text
 					title: 'Total Distance';

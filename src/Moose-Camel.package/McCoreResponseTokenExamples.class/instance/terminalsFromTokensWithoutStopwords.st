@@ -3,7 +3,7 @@ terminalsFromTokensWithoutStopwords
 	<gtExample>
 	| theTokens theTerminals |
 	
-	theTokens := NlpCoreResponseExamples new responseTokensWithoutStopwords.
+	theTokens := McCoreResponseExamples new responseTokensWithoutStopwords.
 	theTerminals := theTokens terminals.
 	self assert: theTerminals size equals: 2.
 

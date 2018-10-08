@@ -1,5 +1,5 @@
 accessing
 entityContext
-	<return: #NlpQueryEntityContext>
+	<return: #McQueryEntityContext>
 
 	^ entityContext 

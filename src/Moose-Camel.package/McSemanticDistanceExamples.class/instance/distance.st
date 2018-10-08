@@ -4,8 +4,8 @@ distance
 	<description:'calculate semantic distance between two examples'>
 	|questionOne questionTwo|
 	
-	questionOne := NlpCoreResponseExamples new developerQuestion.
-	questionTwo := NlpCoreResponseExamples new otherDeveloperQuestion.
+	questionOne := McCoreResponseExamples new developerQuestion.
+	questionTwo := McCoreResponseExamples new otherDeveloperQuestion.
 	
-	^ NlpSemanticDistance new from:questionOne to:questionTwo.
+	^ McSemanticDistance new from:questionOne to:questionTwo.
 	

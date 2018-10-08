@@ -3,7 +3,7 @@ responseFromParsedJson
 	<gtExample>
 	| aResponse |
 	
-	aResponse := NlpCoreResponse
+	aResponse := McCoreResponse
 		fromJson: self parsedJsonFromString
 		for: self developerQuestion.
 

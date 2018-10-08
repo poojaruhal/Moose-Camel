@@ -6,8 +6,8 @@ from: questionOne to: questionTwo
 	
 	| list1 list2 grammarFormOne grammarFormTwo|
 	
-	grammarFormOne:= NlpGrammarForm fromAst: (NlpInputProcessor new process: questionOne).
-	grammarFormTwo:= NlpGrammarForm fromAst: (NlpInputProcessor new process: questionTwo).
+	grammarFormOne:= McGrammarForm fromAst: (McInputProcessor new process: questionOne).
+	grammarFormTwo:= McGrammarForm fromAst: (McInputProcessor new process: questionTwo).
 
 	list1 := grammarFormOne nodes collect: #class.
 	list2 := grammarFormTwo nodes collect: #class.

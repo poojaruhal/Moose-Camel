@@ -3,13 +3,13 @@ firstMatchedExampleOf: aQuestion
 	
 		| grammarFormOfQuestion |
 		
-		grammarFormOfQuestion := NlpGrammarForm fromAst: (self process: aQuestion).
+		grammarFormOfQuestion := McGrammarForm fromAst: (self process: aQuestion).
 		
-		NlpTrainingData trainingQuestions lines do:
+		McTrainingData trainingQuestions lines do:
 		[ :anExampleQuestion |
 				|anExampleQuestionGrammarForm|
 				
-				anExampleQuestionGrammarForm := NlpGrammarForm fromAst: (self process: anExampleQuestion).
+				anExampleQuestionGrammarForm := McGrammarForm fromAst: (self process: anExampleQuestion).
 				
 				(grammarFormOfQuestion  = anExampleQuestionGrammarForm)
 						ifTrue: [ 

@@ -4,10 +4,10 @@ visitNsubj: anNlpDependencyNsubj
 	
 	aTargetWord := anNlpDependencyNsubj targetNode word.
 	aReturnEntity := {
-		'classes' -> (NlpNamedEntityKind named: #allModelClasses).
-		'methods' -> (NlpNamedEntityKind named: #allModelMethods) } asDictionary at: aTargetWord.
+		'classes' -> (McNamedEntityKind named: #allModelClasses).
+		'methods' -> (McNamedEntityKind named: #allModelMethods) } asDictionary at: aTargetWord.
 
-	aNavigationStep := NlpQueryNavigationStep  entityKind: aReturnEntity.
+	aNavigationStep := McQueryNavigationStep  entityKind: aReturnEntity.
 	query add: aNavigationStep.
 
 	question := question , 'return ', anNlpDependencyNsubj targetNode word, ' that ', anNlpDependencyNsubj sourceNode word, String cr

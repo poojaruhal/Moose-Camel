@@ -4,15 +4,15 @@ visitDobj: anNlpDependencyDobj
 	
 	aTargetWord := anNlpDependencyDobj targetNode word.
 	aReturnEntity := {
-		'classes' -> (NlpNamedEntityKind named: #allModelClasses).
-		'methods' -> (NlpNamedEntityKind named: #allModelMethods) } asDictionary at: aTargetWord.
+		'classes' -> (McNamedEntityKind named: #allModelClasses).
+		'methods' -> (McNamedEntityKind named: #allModelMethods) } asDictionary at: aTargetWord.
 
-	aNavigationStep := NlpQueryNavigationStep  entityKind: aReturnEntity.
+	aNavigationStep := McQueryNavigationStep  entityKind: aReturnEntity.
 	query add: aNavigationStep.
 	
 	aSourceWord := anNlpDependencyDobj sourceNode word.
 	aSelectionStep := {
-		'deprecated' -> (NlpQuerySelectionStep deprecated)
+		'deprecated' -> (McQuerySelectionStep deprecated)
 	} asDictionary at: aSourceWord.
 	
 	query add: aSelectionStep.

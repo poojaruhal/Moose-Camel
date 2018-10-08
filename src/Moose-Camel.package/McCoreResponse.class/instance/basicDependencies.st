@@ -1,10 +1,10 @@
 api - response
 basicDependencies
 	"get constituency parse out of sentence"
-	<return: #NlpCoreResponseDependencies>
+	<return: #McCoreResponseDependencies>
 
 		^ (self json at: 'sentences')
-			ifEmpty: [ NlpCoreResponseDependencies new ]
+			ifEmpty: [ McCoreResponseDependencies new ]
 			ifNotEmpty: [ :theSentences | ((theSentences at: 1) at: 'basicDependencies')
-				collect: [ :aDictionary | NlpCoreResponseDependency fromDictionary: aDictionary ]
-				as: NlpCoreResponseDependencies ]
+				collect: [ :aDictionary | McCoreResponseDependency fromDictionary: aDictionary ]
+				as: McCoreResponseDependencies ]

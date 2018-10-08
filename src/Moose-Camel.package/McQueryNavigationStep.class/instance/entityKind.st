@@ -1,5 +1,5 @@
 accessing
 entityKind
-	<return: #NlpQueryEntityKind>
+	<return: #McQueryEntityKind>
 
 	^  entityKind

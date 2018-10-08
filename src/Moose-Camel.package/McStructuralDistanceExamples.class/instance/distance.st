@@ -4,10 +4,10 @@ distance
 	<description:'deprecated classes'>
 	|questionOne questionTwo|
 	
-	questionOne := NlpCoreResponseExamples new developerQuestion.
-	questionTwo := NlpCoreResponseExamples new otherDeveloperQuestion.
+	questionOne := McCoreResponseExamples new developerQuestion.
+	questionTwo := McCoreResponseExamples new otherDeveloperQuestion.
 	
- 	^ NlpStrcutureDistance new from: questionOne  to: questionTwo.
+ 	^ McStrcutureDistance new from: questionOne  to: questionTwo.
 	
 
 	

@@ -2,4 +2,4 @@ initialization
 initialize
 	super initialize.
 	
-	grammarForm := NlpGrammarForm new.
+	grammarForm := McGrammarForm new.
