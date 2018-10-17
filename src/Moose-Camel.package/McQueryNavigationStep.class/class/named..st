@@ -1,3 +1,3 @@
 instance creation
 named: aSymbol
-	^ self entityKind: (NlpNamedEntityKind named: aSymbol)
+	^ self entityKind: (McNamedEntityKind named: aSymbol)

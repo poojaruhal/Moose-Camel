@@ -1,3 +1,3 @@
 instance-creation
 deprecated
-	^ self new entityContext: (NlpAnnotationNameContext deprecated)
+	^ self new entityContext: (McAnnotationNameContext deprecated)

@@ -6,5 +6,5 @@ gtSpotterclassCommentsIn: aComposite
 		title: 'Class Comments';
 		allCandidates: [ (SystemNavigation default allClasses select: [ :eachClass | eachClass hasComment])];
 		itemName: [ :eachClass | eachClass comment ];
-		filter: NlpFilterSimilar;
+		filter: McFilterSimilar;
 		wantsToDisplayOnEmptyQuery: false

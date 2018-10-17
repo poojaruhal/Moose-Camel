@@ -11,5 +11,5 @@ gtSpotterExamplesDescriptionsIn: aComposite
 			examples := packages flatCollect: [ :each | each gtExamplesContained ].
 			examples select: [ :each | each description isNotNil ] ];
 		itemName: [ :eachExample | eachExample description ];
-		filter: NlpFilterSimilar;
+		filter: McFilterSimilar;
 		wantsToDisplayOnEmptyQuery: false
