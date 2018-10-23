@@ -1,0 +1,1 @@
+I take response tokens from a CoreNlpService, remove stopwords from it and then returns a new copy of reponse tokens.
