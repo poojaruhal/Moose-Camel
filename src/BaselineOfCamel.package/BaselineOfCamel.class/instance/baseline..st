@@ -4,7 +4,8 @@ baseline: spec
 
 	spec for: #'common' do: [
 		spec
-			baseline: 'GToolkit' with: [ spec repository: 'github://feenkcom/gtoolkit/src' ];
+			"GT-Examples is examples and testing framework"
+			baseline: 'GToolkitExamplesEngine' with: [ spec repository: 'github://feenkcom/gtoolkit-examples/src' ];
 			baseline: 'Atlas' with: [ spec repository: 'github://kilon/Atlas' ];
 			baseline: 'CamelAST' with: [ spec repository: 'github://poojaruhal65/Moose-Camel-AST/src' ];
 
@@ -15,5 +16,5 @@ baseline: spec
 					repository: 'http://smalltalkhub.com/mc/SvenVanCaekenberghe/Neo/main/';
 					loads: #(Core) ].
 
-		spec package: #'Moose-Camel' with: [ spec requires: #(GToolkit CamelAST NeoJSON Atlas) ].
+		spec package: #'Moose-Camel' with: [ spec requires: #(GToolkitExamplesEngine CamelAST NeoJSON Atlas) ].
 		spec group: 'default' with: #('Moose-Camel') ]
