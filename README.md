@@ -15,7 +15,7 @@ Moose 6.1
 ```smalltalk
 Metacello new
    baseline: 'Camel';
-   repository: 'github://poojaruhal65/Moose-Camel/src';
+   repository: 'github://poojaruhal/Moose-Camel/src';
    load
 ```
 
